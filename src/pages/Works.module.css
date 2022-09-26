@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@700&display=swap');
+
+.works_section {
+    padding: 0px 8vw 90px 8vw;
+    width: 100%;
+    height: auto;
+    top: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    background-color: #112240;
+}
+
+.works_header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.works_header p {
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 2.2rem;
+    color: #CCD6F6;
+}
+
+.works_header hr {
+    color: #64ffda;
+}
+
+/* .projects {
+    display: flex;
+    flex-basis: 300px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+.projects {
+    display: grid;
+    padding: 7px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 450px;
+    grid-gap: 40px;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #112240;
+    z-index: 3;
+    /* padding-bottom: 5px; */
+    padding: 15px;
+    -moz-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+.right_nav {
+    padding-right: 55px;
+}
+
+.navbar nav {
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.activeLink {
+    text-decoration: none;
+    color: #64ffda;
+    border-bottom: 1px solid #64ffda;
+    margin: 12px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+.unactiveLink:hover {
+    color: #64ffda;
+}
+
+.unactiveLink {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 12px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.my_resume {
+    display: inline-block;
+}
+
+.my_resume button {
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    padding: 11px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.my_resume button a {
+    text-decoration: none;
+    color: #64ffda;
+}
+
+.my_resume button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 850px) {
+    
+    .navbar nav {
+        display: none;
+    }
+
+    
+
+
+
+  }

@@ -1,0 +1,29 @@
+ 
+ .connect_icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 25px 0;
+    gap: 40px;
+    width: 100%;
+ }
+
+ .connect_icons img {
+    transition: all 120ms ease-in-out;
+    background-color: transparent;
+    filter: invert(100%);
+ }
+
+ .connect_icons img:hover {
+    transform: scale(1.2);
+    filter: invert(50%);
+}
+
+@media only screen and (min-width: 850px) {
+
+    .connect_icons {
+        display: none;
+    }
+
+}

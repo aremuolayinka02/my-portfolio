@@ -1,0 +1,45 @@
+.right_sidebar {
+    position: fixed;
+    background-color: #112240;
+    width: 8vw;
+    height: 100vh; 
+    right: 0;
+    z-index: 2;
+}
+
+.info_container_right {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info_container_right img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 120ms ease-in-out;
+    background-color: transparent;
+    filter: invert(100%);
+}
+
+.info_container_right img:hover {
+    transform: scale(1.2);
+}
+
+.vertical_line1 {
+    display: block;
+    border-left: 2px solid #64ffda;
+    height: 100px;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+    .right_sidebar {
+        display: none;
+    }
+    
+}

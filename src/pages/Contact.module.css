@@ -1,0 +1,89 @@
+
+.contact_container {
+    padding: 0px 8vw 80px 8vw;
+    width: 100%;
+    height: auto;
+    top: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    background-color: #112240;
+}
+
+.contact_content {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.contact_content h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+    margin: 20px 0px;
+    display: inline-block;
+    color: #64ffda;
+}
+
+.contact_content p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    margin-bottom: 40px;
+}
+
+form label {
+    font-family: 'Roboto Mono', monospace;
+    color: #64ffda;
+    display: block;
+    margin-top: 35px;
+    font-size: 0.9rem;
+}
+
+form input, textarea {
+    display: block;
+    margin-top: 15px;
+    width: 90%;
+    max-width: 90%;
+    font-family: "Didact Gothic",sans-serif;
+    font-size: 1.1rem;
+    padding: 7px;
+    border: 1px solid whitesmoke;
+    color: antiquewhite;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    font-family: "Didact Gothic",sans-serif;
+    transition: all 1.5ms;
+}
+
+form button:hover {
+    cursor: pointer;
+    color: whitesmoke;
+}  
+
+.footer_text {
+    font-family: 'Roboto Mono', monospace;
+    color: grey;
+    display: block;
+    margin-top: 35px;
+    font-size: 0.8rem;
+}
+
+
+
+@media only screen and (max-width: 680px) {
+
+    .contact_container {
+        padding: 0px 5vw 110px 5vw;
+        width: 100%;
+        height: auto;
+        top: 80px;
+        box-sizing: border-box;
+        position: absolute;
+        z-index: 1;
+        background-color: #112240;
+    }
+
+}

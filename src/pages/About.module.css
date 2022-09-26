@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@700&display=swap');
+
+.about_wrapper {
+    padding: 0px 8vw 80px 8vw;
+    width: 100%;
+    height: auto;
+    top: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    background-color: #112240;
+}
+
+.about_section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+h1 {
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 2rem;
+    color: #64FFDA;
+    margin-bottom: 25px;
+}
+
+.about_me {
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.about_summary {
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    line-height: 1.6;
+}
+
+.about_summary a {
+    text-decoration: none;
+    color: #64FFDA;
+}
+
+.skills_section {
+    padding-left: 30px;
+}
+
+
+.learning_section {
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 680px) {
+
+    .about_wrapper {
+        padding: 0px 5vw 110px 5vw;
+        width: 100%;
+        height: auto;
+        top: 80px;
+        box-sizing: border-box;
+        position: absolute;
+        z-index: 1;
+        background-color: #112240;
+     }
+
+     .about_section {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_me {
+        max-width: 100%;
+    }
+
+    .skills_section {
+        padding-top: 15px;
+        padding-left: 0px;
+    }
+    
+    
+    .learning_section {
+        padding-left: 0px;
+    }
+    
+
+}
