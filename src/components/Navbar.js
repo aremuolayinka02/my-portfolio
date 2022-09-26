@@ -13,7 +13,7 @@ export const Navbar = () => {
         <div className={styles.right_nav}>
 
           <nav>
-            <NavLink to={'/'} className={({isActive}) =>  (isActive ? styles.activeLink : styles.unactiveLink) }>Home</NavLink>    
+            <NavLink to={'/my-portfolio'} className={({isActive}) =>  (isActive ? styles.activeLink : styles.unactiveLink) }>Home</NavLink>    
             <NavLink to={'/about'} className={({isActive}) =>  (isActive ? styles.activeLink : styles.unactiveLink) }>About</NavLink>    
             <NavLink to={'/works'} className={({isActive}) =>  (isActive ? styles.activeLink : styles.unactiveLink) }>Works</NavLink>     
             <NavLink to={'/contact'} className={({isActive}) =>  (isActive ? styles.activeLink : styles.unactiveLink) }>Contact</NavLink> 

@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <div className={styles.footer}>
 
-        <NavLink to={'/'} className={({isActive}) =>  (isActive ? styles.activeFooter : styles.unactiveFooter) }>
+        <NavLink to={'/my-portfolio'} className={({isActive}) =>  (isActive ? styles.activeFooter : styles.unactiveFooter) }>
             
             <div className={styles.link_container}>
                 <img src={Home} alt="home image" width="28px" />
