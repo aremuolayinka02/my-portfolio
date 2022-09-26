@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.d064a602.css",
+    "main.js": "/my-portfolio/static/js/main.1da91903.js",
+    "static/media/texas.png": "/my-portfolio/static/media/texas.9e1dd6af3c057a84df28.png",
+    "static/media/software.svg": "/my-portfolio/static/media/software.09be7f05e684980f4098c9cf4abc7102.svg",
+    "static/media/helmet.png": "/my-portfolio/static/media/helmet.d082cb3c8e66546d8921.png",
+    "static/media/portfolio.svg": "/my-portfolio/static/media/portfolio.7b11a5c64c788bbe2a9f0afd33e42575.svg",
+    "static/media/leaf.webp": "/my-portfolio/static/media/leaf.1669212c9b9d2509df51.webp",
+    "static/media/robofriend.png": "/my-portfolio/static/media/robofriend.03e2f878c04003676580.png",
+    "static/media/todo-icon.ico": "/my-portfolio/static/media/todo-icon.c0b7707268d62682ed20.ico",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/home.svg": "/my-portfolio/static/media/home.a63b8607350a3a600213641bd583e494.svg",
+    "main.d064a602.css.map": "/my-portfolio/static/css/main.d064a602.css.map",
+    "main.1da91903.js.map": "/my-portfolio/static/js/main.1da91903.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d064a602.css",
+    "static/js/main.1da91903.js"
+  ]
+}
