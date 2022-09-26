@@ -20,7 +20,7 @@ export const Navbar = () => {
           </nav>
 
           <div className={styles.my_resume}>
-            <button><a target="_blank" href={"/my_resume.pdf"}>Resume</a></button>
+            <button><a target="_blank" href={"my-portfolio/my_resume.pdf"}>Resume</a></button>
           </div>
 
         </div>
