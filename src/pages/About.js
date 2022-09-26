@@ -10,7 +10,7 @@ export const About = () => {
 
   const aboutVariants = {
     hidden: {
-      y: "-100vw",
+      y: "-100%",
       opacity: 0
     },
     visible: {
@@ -19,7 +19,7 @@ export const About = () => {
       transition: {
         delay: 0.1,
         type: "spring",
-        stiffness: "20"
+        stiffness: "5"
       }
 
     }

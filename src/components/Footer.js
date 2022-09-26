@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import Home from '../icons/home.svg'
 import About from '../images/about.png'
 import Works from '../images/works.png'
+import Contact from '../images/contact.png'
 
 export const Footer = () => {
   return (
@@ -39,7 +40,7 @@ export const Footer = () => {
         <NavLink to={'/contact'} className={({isActive}) =>  (isActive ? styles.activeFooter : styles.unactiveFooter) }>
             
         <div className={styles.link_container}>
-                <img src={Home} alt="contact image" width="28px" />
+                <img src={Contact} alt="contact image" width="28px" />
                 <p>Contact</p>
             </div>
             

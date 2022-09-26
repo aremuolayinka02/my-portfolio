@@ -3,6 +3,7 @@ import styles from './Introduction.module.css'
 import ContentImage from '../images/software.svg'
 import { ConnectIcons } from './ConnectIcons'
 import { motion } from "framer-motion"
+import { NavLink } from 'react-router-dom'
 
 export const Introduction = () => {
 
@@ -63,8 +64,17 @@ export const Introduction = () => {
                     I love things simple and organized.
                     </p>
 
-                    <button className={styles.main_btn}>Resume</button>
-                    <button className={styles.main_btn}>Hire Me</button>
+                    <a href="/my-portfolio/aremu_olayinka.pdf" target="_blank">
+                      <button className={styles.main_btn}>
+                        Resume
+                      </button>
+                    </a>
+
+                    <NavLink to="/contact">
+                      <button className={styles.main_btn}>
+                        Hire Me
+                      </button>
+                    </NavLink>
 
                 </div>
 

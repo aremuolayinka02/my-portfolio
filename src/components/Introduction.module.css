@@ -50,6 +50,8 @@
     transition: all 70ms ease;
     border: 1px solid #64ffda;
     color: #64ffda;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
  }
 
  .main_btn:hover {
